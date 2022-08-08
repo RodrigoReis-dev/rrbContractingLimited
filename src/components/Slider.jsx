@@ -4,7 +4,7 @@ export default function Caroussel() {
   return (
     <>
       <div className="carousel w-full shadow-lg">
-        <div id="slide1" class="carousel-item relative w-full">
+        <div id="slide1" className="carousel-item relative w-full">
           <img
             className="w-full"
             src={require('../images/home.jpeg')}
@@ -49,7 +49,7 @@ export default function Caroussel() {
             </a>
           </div>
         </div>
-        <div id="slide4" class="carousel-item relative w-full">
+        <div id="slide4" className="carousel-item relative w-full">
           <img
             className="w-full"
             src={require('../images/home4.jpeg')}

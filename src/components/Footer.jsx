@@ -14,10 +14,10 @@ export default function Footer() {
         </div> */}
         <div className='inline-flex justify-between items-center'>
           <h2 className="footer-title">Company</h2>
-          <a className="link link-hover">Home</a>
-          <a className="link link-hover">About Us</a>
-          <a className="link link-hover">Projects</a>
-          <a className="link link-hover">Contact Us</a>
+          <a href='/' className="link link-hover">Home</a>
+          <a href='/about' className="link link-hover">About Us</a>
+          <a href='/projects' className="link link-hover">Projects</a>
+          <a href='/contact' className="link link-hover">Contact Us</a>
         </div>
         {/* <div>
           <span className="footer-title">Legal</span>

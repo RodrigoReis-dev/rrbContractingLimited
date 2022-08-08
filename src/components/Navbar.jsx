@@ -6,21 +6,18 @@ import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <div className=" ">
-      {/* <div className=' w-36'>
+    <div className="w-full mx-auto max-w-screen-xl md:px-6 float-right items-centre h-36">
+     {/* <div className=' w-36'>
         <img src={require('../images/logo-rrb.png')} alt='RRB'/>
-        </div>
-    */}
-     
-
+        </div> */}
       <nav className="pt-14">
-        <div className="mx-auto max-w-screen-xl md:px-6 float-right">
+        <div className="mx-auto  float-right ">
           <div className="flex items-center ">
             <ul className="flex flex-row space-x-9 text-base font-normal">
               <li>
                 <Link
                   to="/"
-                  className="text-primary-content font-bold px-1 py-2 hover:border-b-2 hover:border-primary  hover:text-primary tracking-wide"
+                  className="text-primary-content font-extrabold px-1 py-2 hover:border-b-2 hover:border-primary  hover:text-primary-focus tracking-wider"
                   aria-current="page"
                 >
                   Home
@@ -29,7 +26,7 @@ export default function Navbar() {
               <li>
                 <Link
                   to="/about"
-                  className="text-primary-content font-bold px-1 py-1 hover:border-b-2 hover:border-primary  hover:text-primary"
+                  className="text-primary-content font-extrabold px-1 py-1 hover:border-b-2 hover:border-primary  hover:text-primary-focus tracking-wider"
                 >
                   About Us
                 </Link>
@@ -37,7 +34,7 @@ export default function Navbar() {
               <li>
                 <Link
                   to="/projects"
-                  className="text-primary-content font-bold px-1 py-1 hover:border-b-2 hover:border-primary  hover:text-primary"
+                  className="text-primary-content font-extrabold px-1 py-1 hover:border-b-2 hover:border-primary  hover:text-primary-focus tracking-wider"
                 >
                   Projects
                 </Link>
@@ -45,7 +42,7 @@ export default function Navbar() {
               <li>
                 <Link
                   to="/contact"
-                  className="text-primary-content font-bold px-1 py-1 hover:border-b-2 hover:border-primary  hover:text-primary"
+                  className="text-primary-content font-extrabold px-1 py-1 hover:border-b-2 hover:border-primary  hover:text-primary-focus tracking-wider"
                 >
                   Contact Us
                 </Link>

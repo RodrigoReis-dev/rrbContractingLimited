@@ -5,15 +5,15 @@ import Navbar from './Navbar'
 
 export default function Header() {
   return (
-    <header className="w-full flex mx-auto justify-around p-5">
-      <div className=" flex p-2 items-center bg-primary w-28 h-28 shadow-lg rounded-xl">
-        <h1 className=" text-5xl font-bold whitespace-nowrap text-slate-50">
+    <header className="w-full flex justify-between mx-auto max-w-screen-xl md:px-6">
+      <div className=" flex p-2 m-5 items-center justify-center bg-primary w-36 h-36 shadow-xl rounded-lg">
+        <span className="text-6xl font-extrabold text-slate-50">
           RRB
-        </h1>
+        </span>
       </div>
-      <nav>
+      <div className=" ">
         <Navbar />
-      </nav>
+      </div>
     </header>
   )
 }
