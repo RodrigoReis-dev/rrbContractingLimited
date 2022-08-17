@@ -17,7 +17,7 @@ export default function Navbar() {
               <li>
                 <Link
                   to="/"
-                  className="text-primary-content font-extrabold px-1 py-2 hover:border-b-2 hover:border-primary  hover:text-primary-focus tracking-wider"
+                  className="text-secondary-content font-bold px-1 py-1 hover:border-b-2 hover:border-secondary  hover:text-secondary tracking-wider"
                   aria-current="page"
                 >
                   Home
@@ -26,7 +26,7 @@ export default function Navbar() {
               <li>
                 <Link
                   to="/about"
-                  className="text-primary-content font-extrabold px-1 py-1 hover:border-b-2 hover:border-primary  hover:text-primary-focus tracking-wider"
+                  className="text-secondary-content font-bold px-1 py-1 hover:border-b-2 hover:border-secondary  hover:text-secondary tracking-wider"
                 >
                   About Us
                 </Link>
@@ -34,7 +34,7 @@ export default function Navbar() {
               <li>
                 <Link
                   to="/projects"
-                  className="text-primary-content font-extrabold px-1 py-1 hover:border-b-2 hover:border-primary  hover:text-primary-focus tracking-wider"
+                  className="text-secondary-content font-bold px-1 py-1 hover:border-b-2 hover:border-secondary  hover:text-secondary tracking-wider"
                 >
                   Projects
                 </Link>
@@ -42,7 +42,7 @@ export default function Navbar() {
               <li>
                 <Link
                   to="/contact"
-                  className="text-primary-content font-extrabold px-1 py-1 hover:border-b-2 hover:border-primary  hover:text-primary-focus tracking-wider"
+                  className="text-secondary-content font-bold px-1 py-1 hover:border-b-2 hover:border-secondary  hover:text-secondary tracking-wider"
                 >
                   Contact Us
                 </Link>
