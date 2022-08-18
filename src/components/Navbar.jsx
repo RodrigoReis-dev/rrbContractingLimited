@@ -12,8 +12,8 @@ export default function Navbar() {
         </div> */}
       <nav className="pt-14">
         <div className="mx-auto  float-right ">
-          <div className="flex items-center ">
-            <ul className="flex flex-row space-x-9 text-base font-normal">
+          <div className="flex items-center">
+            <ul className="flex flex-row flex-wrap space-x-9 text-lg font-normal">
               <li>
                 <Link
                   to="/"
@@ -33,10 +33,10 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  to="/projects"
+                  to="/services"
                   className="text-secondary-content font-bold px-1 py-1 hover:border-b-2 hover:border-secondary  hover:text-secondary tracking-wider"
                 >
-                  Projects
+                  Painting Services
                 </Link>
               </li>
               <li>
