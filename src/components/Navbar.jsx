@@ -7,9 +7,6 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
   return (
     <div className="w-full mx-auto max-w-screen-xl md:px-6 float-right items-centre h-36">
-     {/* <div className=' w-36'>
-        <img src={require('../images/logo-rrb.png')} alt='RRB'/>
-        </div> */}
       <nav className="pt-14">
         <div className="mx-auto  float-right ">
           <div className="flex items-center">

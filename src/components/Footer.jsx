@@ -3,28 +3,9 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className="w-full mx-auto mt-20 fixed bottom-0">
-      <footer className="footer p-3 bg-white boder border-t-2 border-black">
-        {/* <div>
-          <span className="footer-title">Services</span>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
-        </div> */}
-        <div className='flex mx-auto max-w-5xl text-secondary-content font-bold py-2 mb-2 tracking-wider'>
-          <a href='/' className=" hover:text-secondary px-4">Home</a>
-          <a href='/about' className="hover:text-secondary px-4">About Us</a>
-          <a href='/projects' className="hover:text-secondary px-4">Projects</a>
-          <a href='/contact' className="hover:text-secondary px-4">Contact Us</a>
-        </div>
-        {/* <div>
-          <span className="footer-title">Legal</span>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
-        </div> */}
-      </footer>
+    <div className="w-full mx-auto fixed bottom-0 z-20">
+      <div className="p-1 bg-secondary">
+      </div>
       <footer className="footer px-10 py-10 text-slate-50 dark:bg-gray-900">
         <div className="items-center grid-flow-col">
           <svg
@@ -44,7 +25,13 @@ export default function Footer() {
           </p>
         </div>
         <div className="md:place-self-center md:justify-self-end text-secondary-focus">
-          <div className="grid grid-flow-col gap-4">
+        <div className='flex mx-auto max-w-5xl text-white font-bold py-2 mb-2 tracking-wider'>
+          <a href='/' className=" hover:text-secondary px-4">Home</a>
+          <a href='/about' className="hover:text-secondary px-4">About Us</a>
+          <a href='/projects' className="hover:text-secondary px-4">Projects</a>
+          <a href='/contact' className="hover:text-secondary px-4">Contact Us</a>
+        </div>
+          {/* <div className="grid grid-flow-col gap-4">
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -78,7 +65,7 @@ export default function Footer() {
                 <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
               </svg>
             </a>
-          </div>
+          </div> */}
         </div>
       </footer>
     </div>

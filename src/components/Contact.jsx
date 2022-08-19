@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import { MailIcon } from '@heroicons/react/outline'
 
-const Contact5 = () => {
+const Contact = () => {
   const nameRef = useRef()
   const emailRef = useRef()
   const messageRef = useRef()
@@ -14,8 +14,8 @@ const Contact5 = () => {
   }
 
   return (
-    <div className='w-full mx-auto bg-black'>
-      <div className="container mx-auto bg-black opacity-90 tracking-wide shadow-2xl mt-12 mb-12 border border-base-100">
+    <div className='w-full mx-auto dark:bg-gray-800 mb-60'>
+      <div className="container max-w-4xl mx-auto dark:bg-gray-900 tracking-wide shadow-2xl shadow-gray-700 mt-12 mb-12 border-2 border-black">
         <div className="grid grid-cols-2">
           {/* :MAP CONTAINER */}
           <div className="order-1 col-span-full">
@@ -83,14 +83,14 @@ const Contact5 = () => {
                   cols="30"
                   rows="5"
                   placeholder="How can we help?"
-                  className="form-textarea resize-none p-2 w-full shadow-sm rounded border-gray-100 bg-gray-100 placeholder-gray-800 focus:border-green-400 focus:ring-green-400"
+                  className="form-textarea resize-none p-2 w-full shadow-sm rounded border-gray-100 bg-white placeholder-gray-800 focus:border-green-400 focus:ring-green-400"
                 ></textarea>
               </div>
               {/* ::Submit Button */}
               <div>
                 <button
                   type="submit"
-                  className="py-2 px-6 rounded bg-gray-700 border border-spacing-4 text-base text-white font-semibold uppercase hover:bg-secondary hover:text-white"
+                  className="py-2 px-7 rounded border border-spacing-4 border-secondary text-base text-secondary font-semibold uppercase hover:bg-secondary hover:text-white tracking-wide"
                 >
                   Send Message
                 </button>
@@ -110,10 +110,10 @@ const Contact5 = () => {
               {/* ::Email contact */}
               <a
                 href="#mail"
-                className="inline-flex items-center text-sm text-info font-semibold hover:text-blue-500"
+                className="inline-flex items-center text-sm text-info font-semibold hover:text-blue-300"
               >
                 <MailIcon className="mr-2 w-5 text-gray-100" />
-                mail-contact@fancycontact.com
+                contact@rrb.nz
               </a>
               {/* ::Address */}
               <p className="text-sm text-gray-100 leading-6">
@@ -174,4 +174,4 @@ const Contact5 = () => {
   )
 }
 
-export default Contact5
+export default Contact

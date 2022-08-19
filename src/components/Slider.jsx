@@ -3,7 +3,7 @@ import React from 'react'
 export default function Caroussel() {
   return (
     <>
-      <div className="w-full  carousel shadow-lg">
+      <div className="w-full carousel">
         <div id="slide1" className="carousel-item relative w-full">
           <img
             className="w-full"

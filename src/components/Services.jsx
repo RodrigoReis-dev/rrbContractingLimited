@@ -1,10 +1,12 @@
 import React from 'react'
+import Banner from './Banner'
 import Galery from './Galery'
 
 
 export default function Services() {
   return (
-    <div>
-      <Galery />
+    <div className='mb-40'>
+      <Galery className='w-full max-w-5xl mx-auto mb-40'/>
+      <Banner className=' mx-auto'/>
     </div>
   )}

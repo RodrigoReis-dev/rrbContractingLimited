@@ -9,7 +9,7 @@ export default function Galery() {
         <div className="max-w-screen-xl px-4 md:px-8 mx-auto">
           <div className="flex justify-between items-end gap-4 mb-6">
             <h2 className="text-gray-900  text-3xl font-bold mb-4">
-              Painting Services
+              Painting Specialists
             </h2>
           </div>
 

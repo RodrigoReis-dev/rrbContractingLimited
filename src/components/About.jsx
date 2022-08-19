@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Partners() {
   return (
-    <div className="container mx-auto mt-auto">
+    <div className="container max-w-4xl mx-auto mt-10">
       <section className="pt-1 lg:pt-[20px] pl-1 pb-12 mb-60 lg:pb-[10px] overflow-hidden">
         <div className="container">
           <div className="flex flex-wrap justify-between items-center -mx-4">
@@ -606,41 +606,46 @@ export default function Partners() {
                 </div>
               </div>
             </div>
-            <div className="w-full lg:w-1/2 xl:w-5/12 px-4">
+            <div className="w-full lg:w-1/2 xl:w-5/12 pl-8">
               <div className="mt-10 lg:mt-0">
                 <span className="font-semibold text-xl text-secondary mb-2 block">
                   Why Choose Us
                 </span>
                 <h2 className="font-bold text-3xl sm:text-4xl text-dark mb-8">
-                What makes us different is that this isn't just about painting and money for us.
+                  What makes us different is that this isn't just about painting
+                  and money for us.
                 </h2>
                 <p className="text-base text-body-color mb-8">
-                We have been operating in the Waikato, Bay of Plenty and Auckland regions for the past 10 years, building a strong customer base providing service and quality.
+                  We have been operating in the Waikato, Bay of Plenty and
+                  Auckland regions for the past 10 years, building a strong
+                  customer base providing service and quality.
                 </p>
                 <p className="text-base text-body-color mb-12">
-                To grow individuals, yes to be good painters but better 
-                yet be good people.
+                  To grow individuals, yes to be good painters but better yet be
+                  good people.
                 </p>
-                
+
                 <a
+                  a
                   // eslint-disable-next-line no-script-url
                   href="/contact"
                   className="
-                  py-4
-                  px-10
-                  lg:px-8
-                  xl:px-10
-                  inline-flex
-                  items-center
-                  justify-center
-                  text-center text-white text-base
-                  bg-secondary
-                  hover:bg-opacity-80
-                  hover:text-gray-900
-                  font-normal
-                  rounded-lg
-                  "
-                >
+                py-4
+                px-10
+                lg:px-8
+                xl:px-10
+                inline-flex
+                items-center
+                justify-center
+                text-center
+                text-white
+                text-base
+                bg-secondary
+                hover:bg-opacity-80
+                hover:text-gray-900
+                font-normal
+                rounded-lg
+                ">
                   Request a quote
                 </a>
               </div>
