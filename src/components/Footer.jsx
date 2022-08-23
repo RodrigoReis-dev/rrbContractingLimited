@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className="w-full mx-auto fixed bottom-0 z-20">
+    <div className="w-full mx-auto bottom-0 z-20">
       <div className="p-1 bg-secondary">
       </div>
       <footer className="footer px-10 py-10 text-slate-50 dark:bg-gray-900">

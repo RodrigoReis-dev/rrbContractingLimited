@@ -1,20 +1,34 @@
 import React, { useRef } from 'react'
 import { MailIcon } from '@heroicons/react/outline'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
-  const nameRef = useRef()
-  const emailRef = useRef()
-  const messageRef = useRef()
+  const form = useRef()
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    /* 
-    Do something here !
-    */
+    e.preventDefault() // prevents the page from reloading when you hit “Send”
+
+    emailjs
+      .sendForm(
+        'service_gmail_contact',
+        'template_oevbj16',
+        form.current,
+        'uVt7ns5vTAcGA_Zlu'
+      )
+      .then(
+        (result) => {
+          alert('Email sent successfully')
+          console.log(result.text)
+        },
+        (error) => {
+          console.log(error.text)
+        }
+      )
+      e.target.reset()
   }
 
   return (
-    <div className='w-full mx-auto dark:bg-gray-800 mb-60'>
+    <div className="w-full mx-auto dark:bg-gray-800 mb-24">
       <div className="container max-w-4xl mx-auto dark:bg-gray-900 tracking-wide shadow-2xl shadow-gray-700 mt-12 mb-12 border-2 border-black">
         <div className="grid grid-cols-2">
           {/* :MAP CONTAINER */}
@@ -33,8 +47,8 @@ const Contact = () => {
           {/* :CONTACT FORM CONTAINER */}
           <div className="order-3 md:order-2 col-span-full md:col-span-1 py-5 md:py-8 px-6 font-medium">
             <form
-              action=""
               className="mx-auto max-w-xl space-y-4"
+              ref={form}
               onSubmit={handleSubmit}
             >
               {/* ::Name Input */}
@@ -45,10 +59,9 @@ const Contact = () => {
                 </label>
                 {/* :::input */}
                 <input
-                  ref={nameRef}
                   type="text"
                   id="name"
-                  name="name"
+                  name="user_name"
                   placeholder="Name"
                   className="form-input w-full block p-2 shadow-sm rounded bg-white text-base placeholder-gray-800 "
                 />
@@ -61,10 +74,9 @@ const Contact = () => {
                 </label>
                 {/* :::input */}
                 <input
-                  ref={emailRef}
                   type="email"
                   id="email"
-                  name="email"
+                  name="user_email"
                   placeholder="Email Address"
                   className="form-input w-full block p-2 shadow-sm rounded bg-white text-base placeholder-gray-800 "
                 />
@@ -77,7 +89,6 @@ const Contact = () => {
                 </label>
                 {/* :::input */}
                 <textarea
-                  ref={messageRef}
                   name="message"
                   id="message"
                   cols="30"
@@ -90,6 +101,7 @@ const Contact = () => {
               <div>
                 <button
                   type="submit"
+                  value="Send"
                   className="py-2 px-7 rounded border border-spacing-4 border-secondary text-base text-secondary font-semibold uppercase hover:bg-secondary hover:text-white tracking-wide"
                 >
                   Send Message
@@ -101,11 +113,12 @@ const Contact = () => {
           <div className="order-2 md:order-3 col-span-full md:col-span-1 py-5 md:py-10 px-6">
             <div className="mx-auto max-w-xl flex flex-col space-y-5">
               {/* ::Title Contact Us */}
-              <h2 className="text-4xl font-oswald uppercase text-white font-semibold">Contact us</h2>
+              <h2 className="text-4xl font-oswald uppercase text-white font-semibold">
+                Contact us
+              </h2>
               {/* ::Text */}
               <p className="text-base text-gray-100">
-                Talk to us today about your next project! <br /> Get in
-                touch!
+                Talk to us today about your next project! <br /> Get in touch!
               </p>
               {/* ::Email contact */}
               <a
@@ -117,23 +130,28 @@ const Contact = () => {
               </a>
               {/* ::Address */}
               <p className="text-sm text-gray-100 leading-6">
-                37 Tennille st, Flagstaff <br /> 3210 Hamilton <br /> New Zealand
+                37 Tennille st, Flagstaff <br /> 3210 Hamilton <br /> New
+                Zealand
               </p>
               {/* ::Socials */}
               <div className="flex items-center">
-                {/* :Twitter */}
+                {/* :LINKEDIN */}
                 <a
-                  href="#twitter"
+                  href="https://www.linkedin.com/in/rrb-contracting-limited-4b7628249/"
                   className="m-1.5 w-8 h-8 inline-flex justify-center items-center shadow-sm rounded-full bg-[#1DA1F2] text-white filter hover:brightness-125"
                   style={{ backgroundColor: '#1DA1F2' }}
                 >
-                  {/* ::twitter svg */}
+                  {/* ::linkedin svg */}
                   <svg
-                    className="w-4 h-4 fill-current"
                     xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    className="bi bi-linkedin"
+                    viewBox="0 0 16 16"
                   >
-                    <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                    {' '}
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />{' '}
                   </svg>
                 </a>
                 {/* :FACEBOOK */}

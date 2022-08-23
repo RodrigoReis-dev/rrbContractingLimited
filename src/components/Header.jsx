@@ -12,7 +12,7 @@ export default function Header() {
         />
           <h3 className="flex flex-col float-right text-right mt-20 font-bold text-xl text-gray-900 ">
             RRB Contracting Limited
-            <span className=" text-secondary">09 625 5045</span>
+            <span className=" text-secondary">021 028 19698</span>
           </h3>
       </div>
       <Navbar />
