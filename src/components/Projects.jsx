@@ -3,7 +3,7 @@ import Banner from './Banner'
 import Galery from './Galery'
 
 
-export default function Services() {
+export default function Projects() {
   return (
     <div className='mb-40'>
       <Galery className='w-full max-w-5xl mx-auto mb-40'/>

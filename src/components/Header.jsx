@@ -3,25 +3,19 @@ import Navbar from './Navbar'
 
 export default function Header() {
   return (
-    <header className="w-full flex justify-between mx-auto max-w-screen-2xl md:px-6">
-      <img
-        className="w-60"
-        src={require('../images/rrb.png')}
-        alt="RRB"
-      />
-      {/* <div className=" flex p-2 m-5 items-center justify-center bg-secondary w-36 h-36 shadow-xl rounded-lg">
-          <span className="text-6xl font-extrabold text-slate-50">
-            RRB
-          </span>
-        </div> */}
-      <div className="mt-10">
-        <h3 className="float-right font-bold text-lg text-gray-900 mr-7">
-          RRB Contracting Limited
-          <br />
-          <span className="float-right text-secondary">09 625 5045</span>
-        </h3>
-        <Navbar />
+    <header className="container flex flex-wrap justify-between mx-auto">
+      <div className='container flex flex-row justify-between'>
+        <img
+          className="w-80 -mt-10"
+          src={require('../images/rrb.png')}
+          alt="RRB"
+        />
+          <h3 className="flex flex-col float-right text-right mt-20 font-bold text-xl text-gray-900 ">
+            RRB Contracting Limited
+            <span className=" text-secondary">09 625 5045</span>
+          </h3>
       </div>
+      <Navbar />
     </header>
   )
 }

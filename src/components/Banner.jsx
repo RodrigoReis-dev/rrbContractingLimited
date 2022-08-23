@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 export default function Banner() {
   return (
     <div>
@@ -11,11 +10,12 @@ export default function Banner() {
               First Choice for Painting Contractors
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-            With over 10 years experience, talk to the professionals with the proven track record as the finest surface specialists!
+              With over 10 years experience, talk to the professionals with the
+              proven track record as the finest surface specialists!
             </p>
             <a
-              href="#"
-              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+              href="#getStarted"
+              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 animate-pulse"
             >
               Get started
               <svg
@@ -41,4 +41,5 @@ export default function Banner() {
         </div>
       </section>
     </div>
-    )}
+  )
+}

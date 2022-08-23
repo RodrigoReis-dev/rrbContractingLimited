@@ -50,7 +50,7 @@ const Contact = () => {
                   id="name"
                   name="name"
                   placeholder="Name"
-                  className="form-input w-full block p-2 shadow-sm rounded border-gray-300 bg-white text-base placeholder-gray-800 focus:border-green-400 focus:ring-1 focus:ring-green-400"
+                  className="form-input w-full block p-2 shadow-sm rounded bg-white text-base placeholder-gray-800 "
                 />
               </div>
               {/* ::Email Input */}
@@ -66,7 +66,7 @@ const Contact = () => {
                   id="email"
                   name="email"
                   placeholder="Email Address"
-                  className="form-input w-full block p-2 shadow-sm rounded border-gray-300 bg-white text-base placeholder-gray-800 focus:border-green-400 focus:ring-1 focus:ring-green-400"
+                  className="form-input w-full block p-2 shadow-sm rounded bg-white text-base placeholder-gray-800 "
                 />
               </div>
               {/* ::Message Input */}
@@ -83,7 +83,7 @@ const Contact = () => {
                   cols="30"
                   rows="5"
                   placeholder="How can we help?"
-                  className="form-textarea resize-none p-2 w-full shadow-sm rounded border-gray-100 bg-white placeholder-gray-800 focus:border-green-400 focus:ring-green-400"
+                  className="form-textarea resize-none p-2 w-full shadow-sm rounded bg-white placeholder-gray-800 caret-orange-500"
                 ></textarea>
               </div>
               {/* ::Submit Button */}
@@ -104,7 +104,7 @@ const Contact = () => {
               <h2 className="text-4xl font-oswald uppercase text-white font-semibold">Contact us</h2>
               {/* ::Text */}
               <p className="text-base text-gray-100">
-                Talk to us today about your next great project! <br /> Get in
+                Talk to us today about your next project! <br /> Get in
                 touch!
               </p>
               {/* ::Email contact */}
@@ -117,7 +117,7 @@ const Contact = () => {
               </a>
               {/* ::Address */}
               <p className="text-sm text-gray-100 leading-6">
-                37 Tennille st, Flagstaff <br /> 3281 Hamilton <br /> New Zealand
+                37 Tennille st, Flagstaff <br /> 3210 Hamilton <br /> New Zealand
               </p>
               {/* ::Socials */}
               <div className="flex items-center">

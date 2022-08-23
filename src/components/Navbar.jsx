@@ -5,12 +5,9 @@ import { Link } from 'react-router-dom'
 
 
 export default function Navbar() {
-  return (
-    <div className="w-full mx-auto max-w-screen-xl md:px-6 float-right items-centre h-36">
-      <nav className="pt-14">
-        <div className="mx-auto  float-right ">
-          <div className="flex items-center">
-            <ul className="flex flex-row flex-wrap space-x-9 text-lg font-normal">
+  return ( 
+      <nav className="container mb-2 -mt-14 ">     
+            <ul className="flex flex-row flex-wrap float-right items-center space-x-10 text-lg font-normal">
               <li>
                 <Link
                   to="/"
@@ -33,7 +30,7 @@ export default function Navbar() {
                   to="/services"
                   className="text-secondary-content font-bold px-1 py-1 hover:border-b-2 hover:border-secondary  hover:text-secondary tracking-wider"
                 >
-                  Painting Services
+                  Projects
                 </Link>
               </li>
               <li>
@@ -44,10 +41,7 @@ export default function Navbar() {
                   Contact Us
                 </Link>
               </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
+            </ul> 
+      </nav>  
   )
 }
