@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Testimonial() {
   return (
-    <div className="max-w-6xl mx-auto text-center text-gray-900 mt-20 mb-60">
+    <div className="max-w-6xl mx-auto text-center text-gray-900 mt-20 mb-20">
       <h2 className="text-3xl font-bold">
         View some of our customer testimonials
       </h2>
