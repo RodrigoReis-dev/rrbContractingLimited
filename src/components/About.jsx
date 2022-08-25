@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import Contact from './Contact'
 import { Link } from 'react-router-dom'
 
 export default function Partners() {
@@ -627,9 +626,9 @@ export default function Partners() {
                   good people.
                 </p>
 
-                <a
+                <ul
                   // eslint-disable-next-line no-script-url
-                  href='contact'
+                 
                   className="
                 py-4
                 px-10
@@ -647,8 +646,8 @@ export default function Partners() {
                 font-normal
                 rounded-lg
                 ">
-                  Request a quote
-                </a>
+                  <li><Link to='/contact'>Request a quote</Link></li>
+                </ul>
               </div>
             </div>
           </div>
