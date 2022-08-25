@@ -3,8 +3,8 @@ import React from 'react'
 
 export default function Partners() {
   return (
-    <div className="container max-w-4xl mx-auto mt-10 mb-8">
-      <section className="pt-1 lg:pt-[20px] pl-1 pb-12 mb-60 lg:pb-[10px] overflow-hidden">
+    <div className="container max-w-5xl mx-auto mt-10 p-6">
+      <section className="pt-1 lg:pt-[20px] pl-1 pb-12 mb-56 lg:pb-[10px] overflow-hidden">
         <div className="container">
           <div className="flex flex-wrap justify-between items-center -mx-4">
             <div className="w-full lg:w-6/12 px-4">
