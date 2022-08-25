@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import Contact from './Contact'
+import { Link } from 'react-router-dom'
 
 export default function Partners() {
   return (
@@ -626,9 +628,8 @@ export default function Partners() {
                 </p>
 
                 <a
-                  a
                   // eslint-disable-next-line no-script-url
-                  href="/contact"
+                  href='contact'
                   className="
                 py-4
                 px-10
