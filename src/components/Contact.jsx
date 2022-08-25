@@ -156,7 +156,7 @@ const Contact = () => {
                 </a>
                 {/* :FACEBOOK */}
                 <a
-                  href="#facebook"
+                  href="https://www.facebook.com/RRBContracting"
                   className="m-1.5 w-8 h-8 inline-flex justify-center items-center shadow-sm rounded-full bg-[#4267B2] text-white filter hover:brightness-125"
                   style={{ backgroundColor: '#4267B2' }}
                 >
