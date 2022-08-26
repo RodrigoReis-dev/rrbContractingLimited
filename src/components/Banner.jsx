@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 export default function Banner() {
   return (
     <div>
@@ -31,12 +31,12 @@ export default function Banner() {
                 ></path>
               </svg>
             </a>
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-secondary dark:focus:ring-gray-800"
             >
               Speak to Us
-            </a>
+            </Link>
           </div>
         </div>
       </section>

@@ -37,7 +37,7 @@ export default function Navbar() {
                 <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
-            <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[150px] text-white gap-10">
+            <ul className="flex flex-col items-center justify-between min-h-[140px] text-white gap-8">
               <li className="">
                 <Link
                   to="/"
