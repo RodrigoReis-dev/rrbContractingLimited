@@ -145,4 +145,3 @@ export default function Testimonial() {
     </div>
   )
 }
-{/* <a href="https://www.freepik.com/free-photo/business-working-people-plan-concept_17433841.htm?query=review">Image by rawpixel.com</a> on <a href="https://www.freepik.com/">Freepik</a> */}
