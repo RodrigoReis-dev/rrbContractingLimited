@@ -28,8 +28,8 @@ const Contact = () => {
   }
 
   return (
-    <div className="w-full mx-auto dark:bg-gray-800 mb-36">
-      <div className="container max-w-4xl mx-auto dark:bg-gray-900 tracking-wide shadow-2xl shadow-gray-700 mt-12 mb-12 border-2 border-black">
+    <div className="w-full mx-auto bg-gray-800 mb-36">
+      <div className="container max-w-4xl mx-auto bg-gray-900 tracking-wide shadow-2xl shadow-gray-700 mt-12 mb-12 border-2 border-gray-700 rounded-lg">
         <div className="grid grid-cols-2">
           {/* :MAP CONTAINER */}
           <div className="order-1 col-span-full">
@@ -63,7 +63,7 @@ const Contact = () => {
                   id="name"
                   name="user_name"
                   placeholder="Name"
-                  className="form-input w-full block p-2 shadow-sm rounded bg-white text-base placeholder-gray-800 "
+                  className="form-input w-full block p-2 shadow-sm rounded bg-white text-base placeholder-gray-500 "
                 />
               </div>
               {/* ::Email Input */}
@@ -78,7 +78,7 @@ const Contact = () => {
                   id="email"
                   name="user_email"
                   placeholder="Email Address"
-                  className="form-input w-full block p-2 shadow-sm rounded bg-white text-base placeholder-gray-800 "
+                  className="form-input w-full block p-2 shadow-sm rounded bg-white text-base placeholder-gray-500 "
                 />
               </div>
               {/* ::Message Input */}
@@ -94,7 +94,7 @@ const Contact = () => {
                   cols="30"
                   rows="5"
                   placeholder="How can we help?"
-                  className="form-textarea resize-none p-2 w-full shadow-sm rounded bg-white placeholder-gray-800 caret-orange-500"
+                  className="form-textarea resize-none p-2 w-full shadow-sm rounded bg-white placeholder-gray-500"
                 ></textarea>
               </div>
               {/* ::Submit Button */}
@@ -102,7 +102,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   value="Send"
-                  className="py-2 px-7 rounded border border-spacing-4 border-secondary text-base text-secondary font-semibold uppercase hover:bg-secondary hover:text-white tracking-wide ring-2"
+                  className="py-3 px-10 rounded border border-spacing-4 border-orange-500 text-sm text-white font-semibold uppercase hover:bg-orange-500 hover:text-white tracking-wide"
                 >
                   Send Message
                 </button>

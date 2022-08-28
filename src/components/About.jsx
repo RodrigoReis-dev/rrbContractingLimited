@@ -609,19 +609,19 @@ export default function Partners() {
             </div>
             <div className="w-full lg:w-1/2 xl:w-5/12 pl-8">
               <div className="mt-10 lg:mt-0">
-                <span className="font-semibold text-xl text-secondary mb-2 block">
+                <span className="font-bold text-xl text-orange-600 mb-2 block">
                   Why Choose Us
                 </span>
-                <h2 className="font-bold text-3xl sm:text-4xl text-dark mb-8">
+                <h2 className="font-bold text-3xl sm:text-4xl text-gray-700 mb-8">
                   What makes us different is that this isn't just about painting
                   and money for us.
                 </h2>
-                <p className="text-base text-body-color mb-8">
+                <p className="text-base text-gray-700 mb-8">
                   We have been operating in the Waikato, Bay of Plenty and
                   Auckland regions for the past 10 years, building a strong
                   customer base providing service and quality.
                 </p>
-                <p className="text-base text-body-color mb-12">
+                <p className="text-base text-gray-700 mb-12">
                   To grow individuals, yes to be good painters but better yet be
                   good people.
                 </p>
@@ -631,20 +631,24 @@ export default function Partners() {
                  
                   className="
                 py-4
-                px-10
-                lg:px-8
-                xl:px-10
+                px-12
+                lg:px-10
+                xl:px-12
                 inline-flex
                 items-center
                 justify-center
                 text-center
                 text-white
                 text-base
-                bg-secondary
+                bg-orange-500
+                border
                 hover:bg-opacity-80
                 hover:text-gray-900
+                hover:border-gray-400
                 font-normal
                 rounded-lg
+                shadow-lg
+                cursor-pointer
                 ">
                   <li><Link to='/contact'>Request a quote</Link></li>
                 </ul>
