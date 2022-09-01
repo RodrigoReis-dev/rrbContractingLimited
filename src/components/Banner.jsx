@@ -13,9 +13,7 @@ export default function Banner() {
               With over 10 years experience, talk to the professionals with the
               proven track record as the finest surface specialists!
             </p>
-            <div
-              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 animate-pulse"
-            >
+            <div className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 animate-pulse">
               Get started
               <svg
                 className="w-5 h-5 ml-2 -mr-1"

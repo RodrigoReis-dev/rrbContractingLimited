@@ -23,7 +23,8 @@ export default function Navbar() {
             {/* // toggle class based on isNavOpen state */}
             <div
               className="CROSS-ICON absolute top-0 right-0 p-10"
-              onClick={() => setIsNavOpen(false)} // change isNavOpen state to false to close the menu
+              onClick={() => setIsNavOpen(false)} 
+              // change isNavOpen state to false to close the menu
             >
               <svg
                 className="h-9 w-9 text-orange-400 animate-pulse"
@@ -42,6 +43,7 @@ export default function Navbar() {
               <li className="">
                 <Link
                   to="/"
+                  onClick={() => setIsNavOpen(false)} 
                   className="items-center justify-center px-20 py-4 text-base font-semibold text-center border-2 rounded-lg hover:bg-orange-500 focus:ring-4 focus:ring-orange-400 text-white border-gray-500 shadow-md shadow-orange-900"
                   aria-current="page"
                 >
@@ -51,6 +53,7 @@ export default function Navbar() {
               <li className="">
                 <Link
                   to="/about"
+                  onClick={() => setIsNavOpen(false)} 
                   className="items-center justify-center px-20 py-4 text-base font-semibold text-center border-2 rounded-lg hover:bg-orange-500 focus:ring-4 focus:ring-orange-400 text-white border-gray-500 shadow-md shadow-orange-900"
                   aria-current="page"
                 >
@@ -60,6 +63,7 @@ export default function Navbar() {
               <li className="">
                 <Link
                   to="/projects"
+                  onClick={() => setIsNavOpen(false)}
                   className="items-center justify-center px-16 py-4 text-base font-semibold text-center border-2 rounded-lg hover:bg-orange-500 focus:ring-4 focus:ring-orange-400 text-white border-gray-500 shadow-md shadow-orange-900 tracking-wider"
                   aria-current="page"
                 >
@@ -69,6 +73,7 @@ export default function Navbar() {
               <li className="">
                 <Link
                   to="/contact"
+                  onClick={() => setIsNavOpen(false)}
                   className="items-center justify-center px-16 py-4 text-base font-semibold text-center border-2 rounded-lg hover:bg-orange-500 focus:ring-4 focus:ring-orange-400 text-white border-gray-500 shadow-md shadow-orange-900 tracking-wider"
                   aria-current="page"
                 >
@@ -79,7 +84,7 @@ export default function Navbar() {
           </div>
         </nav>
         {/* Desktop Navbar */}
-        <nav className='w-full'>
+        <nav className="w-full">
           <ul className="w-full mx-auto justify-center hidden sm:flex flex-row p-7   md:space-x-20 md:mt-0 md:text-base text-white md:font-semibold bg-gray-900 tracking-wider">
             <li>
               <Link

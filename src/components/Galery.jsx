@@ -12,7 +12,6 @@ export default function Galery() {
               Painting Specialists
             </h2>
           </div>
-
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-x-4 md:gap-x-6 gap-y-8">
             {/* <!-- product - start --> */}
             <div>
@@ -38,7 +37,6 @@ export default function Galery() {
               </div>
             </div>
             {/* <!-- product - end -->
-
       <!-- product - start --> */}
             <div>
               <a
@@ -52,7 +50,6 @@ export default function Galery() {
                   className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
                 />
               </a>
-
               <div>
                 <a
                   href="#"
@@ -63,7 +60,6 @@ export default function Galery() {
               </div>
             </div>
             {/* <!-- product - end -->
-
       <!-- product - start --> */}
             <div>
               <a
@@ -77,7 +73,6 @@ export default function Galery() {
                   className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
                 />
               </a>
-
               <div>
                 <a
                   href="#"
@@ -88,7 +83,6 @@ export default function Galery() {
               </div>
             </div>
             {/* <!-- product - end -->
-
       <!-- product - start --> */}
             <div>
               <a
@@ -102,7 +96,6 @@ export default function Galery() {
                   className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
                 />
               </a>
-
               <div>
                 <a
                   href="#"
@@ -113,7 +106,6 @@ export default function Galery() {
               </div>
             </div>
             {/* <!-- product - end -->
-
       <!-- product - start --> */}
             <div>
               <a
@@ -127,7 +119,6 @@ export default function Galery() {
                   className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
                 />
               </a>
-
               <div>
                 <a
                   href="#"
@@ -138,7 +129,6 @@ export default function Galery() {
               </div>
             </div>
             {/* <!-- product - end -->
-
       <!-- product - start --> */}
             <div>
               <a
@@ -152,7 +142,6 @@ export default function Galery() {
                   className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
                 />
               </a>
-
               <div>
                 <a
                   href="#"

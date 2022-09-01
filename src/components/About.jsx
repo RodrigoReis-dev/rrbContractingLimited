@@ -27,7 +27,7 @@ export default function Partners() {
                   </div>
                 </div>
                 <div className="w-full xl:w-1/2 px-3 sm:px-4">
-                  <div className="my-4 relative z-10">
+                  <div className="my-4 relative">
                     <img
                       src="https://cdn.tailgrids.com/1.0/assets/images/services/image-3.jpg"
                       alt=""
@@ -628,7 +628,7 @@ export default function Partners() {
 
                 <ul
                   // eslint-disable-next-line no-script-url
-                 
+
                   className="
                 py-4
                 px-12
@@ -649,8 +649,11 @@ export default function Partners() {
                 rounded-lg
                 shadow-lg
                 cursor-pointer
-                ">
-                  <li><Link to='/contact'>Request a quote</Link></li>
+                "
+                >
+                  <li>
+                    <Link to="/contact">Request a quote</Link>
+                  </li>
                 </ul>
               </div>
             </div>

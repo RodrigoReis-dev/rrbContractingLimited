@@ -28,7 +28,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="w-full mx-auto bg-gray-800 mb-36">
+    <div className="w-full mx-auto bg-gray-800 mt-16 mb-12">
       <div className="container max-w-4xl mx-auto bg-gray-900 tracking-wide shadow-2xl shadow-gray-700 mt-12 mb-12 border-2 border-gray-700 rounded-lg">
         <div className="grid grid-cols-2">
           {/* :MAP CONTAINER */}
@@ -102,7 +102,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   value="Send"
-                  className="py-3 px-10 rounded border border-spacing-4 border-orange-500 text-sm text-white font-semibold uppercase hover:bg-orange-500 hover:text-white tracking-wide"
+                  className="py-3 px-10 rounded-lg border border-spacing-4 border-gray-500 text-sm text-white font-semibold uppercase hover:bg-orange-500 hover:text-white tracking-wide"
                 >
                   Send Message
                 </button>

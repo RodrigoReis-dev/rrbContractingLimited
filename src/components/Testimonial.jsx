@@ -87,7 +87,7 @@ export default function Testimonial() {
               </p>
             </div>
             <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-orange-300 text-gray-900">
-            <img
+              <img
                 src="https://as1.ftcdn.net/v2/jpg/00/43/35/76/1000_F_43357642_HEdYpLAs4Ij0G6DoKr3pdGREVeyL8uWF.jpg"
                 alt=""
                 className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full"
@@ -131,7 +131,7 @@ export default function Testimonial() {
               </p>
             </div>
             <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-orange-300 text-gray-900">
-            <img
+              <img
                 src="https://as1.ftcdn.net/v2/jpg/00/43/35/76/1000_F_43357642_HEdYpLAs4Ij0G6DoKr3pdGREVeyL8uWF.jpg"
                 alt=""
                 className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full"
@@ -141,7 +141,7 @@ export default function Testimonial() {
             </div>
           </div>
         </div>
-      </section>    
+      </section>
     </div>
   )
 }

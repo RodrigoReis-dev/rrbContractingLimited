@@ -3,7 +3,7 @@ import React from 'react'
 import Banner from './Banner'
 import Galery from './Galery'
 import Partners from './Partners'
-import Caroussel from './Slider'
+import Caroussel from './Caroussel'
 import Testimonial from './Testimonial'
 
 export default function Home() {

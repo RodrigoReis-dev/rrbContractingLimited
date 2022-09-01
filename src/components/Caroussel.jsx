@@ -37,7 +37,7 @@ export default function Caroussel() {
         <div id="slide3" className="carousel-item relative w-full">
           <img
             className="w-full"
-            src={require('../images/home5.jpeg')}
+            src={require('../images/home3.jpeg')}
             alt="RRB"
           />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
