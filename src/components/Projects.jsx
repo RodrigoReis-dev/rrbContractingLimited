@@ -4,9 +4,9 @@ import Galery from './Galery'
 
 export default function Projects() {
   return (
-    <div className="-mb-22">
-      <Galery className="container max-w-5xl mx-auto mb-40" />
-      <Banner className=" mx-auto" />
+    <div className='mb-20'>
+      <Galery  />
+      <Banner />
     </div>
   )
 }

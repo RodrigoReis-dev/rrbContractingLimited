@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import Navbar from './Navbar'
 export default function Footer() {
@@ -27,6 +26,8 @@ export default function Footer() {
       <p className="text-sm mx-auto font-semibold text-center text-orange-300 tracking-wider bg-gray-900 pb-5">
         © Copyright 2022. All Rights Reserved.
       </p>
+      
+      
     </footer>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Testimonial() {
   return (
-    <div className="max-w-6xl mx-auto text-center text-gray-900 mt-20 mb-20 shadow-xl">
+    <div className="max-w-6xl mx-auto text-center text-gray-900 mt-20 mb-20 shadow-xl p-1">
       <section className="bg-gray-800 text-gray-100 rounded-lg">
         <div className="container flex flex-col items-center mx-auto mb-12 md:p-10 md:px-12">
           <h1 className="p-4 text-4xl font-semibold leading-none text-center">
@@ -96,7 +96,7 @@ export default function Testimonial() {
               <p className="text-sm uppercase">Hamilton, Waikato</p>
             </div>
           </div>
-          <div className="flex flex-col max-w-6xl mx-4 my-6 shadow-lg">
+          <div className="flex flex-col max-w-6xl mx-4 my-6 mb-20 shadow-lg">
             <div className="px-4 py-10 rounded-t-lg sm:px-8 md:px-12 bg-gray-900">
               <p className="relative px-6 py-1 text-lg italic text-center text-gray-200">
                 <svg

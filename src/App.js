@@ -1,11 +1,12 @@
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes } from 'react-router-dom'
+import ScrollToTop from 'react-scroll-to-top'
 
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Home from './components/Home'
 import Contact from './components/Contact'
 import About from './components/About'
-import Projects from "./components/Projects"
+import Projects from './components/Projects'
 
 function App() {
   return (
@@ -18,8 +19,15 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+      <ScrollToTop
+        className="animate-pulse hover:bg-black"
+        smooth
+        color="orange"
+        width="40"
+        height="32"
+      />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
