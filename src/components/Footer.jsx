@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Navbar'
+import NavbarDesk from './NavbarDesk'
 export default function Footer() {
   return (
     <footer className="w-full mx-auto">
@@ -20,7 +20,7 @@ export default function Footer() {
           </p>
         </div>
         <div className="mx-auto">
-          <Navbar />
+          <NavbarDesk />
         </div>
       </div>
       <p className="text-sm mx-auto font-semibold text-center text-orange-300 tracking-wider bg-gray-900 pb-5">

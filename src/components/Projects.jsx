@@ -1,11 +1,11 @@
 import React from 'react'
 import Banner from './Banner'
-import Galery from './Galery'
+import Gallery from './Gallery'
 
 export default function Projects() {
   return (
     <div className='mb-20'>
-      <Galery  />
+      <Gallery  />
       <Banner />
     </div>
   )

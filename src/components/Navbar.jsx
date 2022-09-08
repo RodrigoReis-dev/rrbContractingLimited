@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import NavbarDesk from './NavbarDesk'
 
 export default function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false)
@@ -23,11 +24,11 @@ export default function Navbar() {
             {/* // toggle class based on isNavOpen state */}
             <div
               className="CROSS-ICON absolute top-0 right-0 p-10"
-              onClick={() => setIsNavOpen(false)} 
+              onClick={() => setIsNavOpen(false)}
               // change isNavOpen state to false to close the menu
             >
               <svg
-                className="h-9 w-9 text-orange-400 animate-pulse"
+                className="h-9 w-9 text-orange-400 animate-pulse cursor-pointer"
                 viewBox="0 0 20 20"
                 fill="none"
                 stroke="currentColor"
@@ -43,7 +44,7 @@ export default function Navbar() {
               <li className="">
                 <Link
                   to="/"
-                  onClick={() => setIsNavOpen(false)} 
+                  onClick={() => setIsNavOpen(false)}
                   className="items-center justify-center px-20 py-4 text-base font-semibold text-center border-2 rounded-lg hover:bg-orange-500 focus:ring-4 focus:ring-orange-400 text-white border-gray-500 shadow-md shadow-orange-900"
                   aria-current="page"
                 >
@@ -53,7 +54,7 @@ export default function Navbar() {
               <li className="">
                 <Link
                   to="/about"
-                  onClick={() => setIsNavOpen(false)} 
+                  onClick={() => setIsNavOpen(false)}
                   className="items-center justify-center px-20 py-4 text-base font-semibold text-center border-2 rounded-lg hover:bg-orange-500 focus:ring-4 focus:ring-orange-400 text-white border-gray-500 shadow-md shadow-orange-900"
                   aria-current="page"
                 >
@@ -84,43 +85,7 @@ export default function Navbar() {
           </div>
         </nav>
         {/* Desktop Navbar */}
-        <nav className="w-full">
-          <ul className="w-full mx-auto justify-center hidden sm:flex flex-row p-7   md:space-x-20 md:mt-0 md:text-base text-white md:font-semibold bg-gray-900 tracking-wider">
-            <li>
-              <Link
-                to="/"
-                className="block py-2 px-10 rounded md:hover:bg-transparent md:border-0 hover:text-orange-400 md:p-0"
-                aria-current="page"
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/about"
-                className="block py-2 px-10 rounded md:hover:bg-transparent md:border-0 hover:text-orange-400 md:p-0"
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/projects"
-                className="block py-2 px-10 rounded md:hover:bg-transparent md:border-0 hover:text-orange-400 md:p-0"
-              >
-                Projects
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/contact"
-                className="block py-2 px-10 rounded md:hover:bg-transparent md:border-0 hover:text-orange-400 md:p-0"
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </nav>
+        <NavbarDesk />
       </div>
     </>
   )
