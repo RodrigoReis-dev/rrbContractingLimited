@@ -4,7 +4,7 @@ import Banner from './Banner'
 import Gallery from './Gallery'
 import Partners from './Partners'
 import Caroussel from './Carousel'
-import Testimonial from './Testimonial'
+// import Testimonial from './Testimonial'
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <Banner />
       <Partners />
       <Gallery />
-      <Testimonial />
+      {/* <Testimonial /> */}
     </main>
   )
 }

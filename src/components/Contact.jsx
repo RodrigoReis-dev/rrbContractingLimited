@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React, { useRef } from 'react'
 import { MailIcon } from '@heroicons/react/outline'
 import emailjs from '@emailjs/browser'
@@ -10,10 +12,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_gmail_contact',
-        'template_gl07t22',
+        'service_0lpi4c2',
+        'template_jlrrbgo',
         form.current,
-        'uVt7ns5vTAcGA_Zlu'
+        '5WrEm14S_9U1TYcmE'
       )
       .then(
         (result) => {
@@ -102,7 +104,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   value="Send"
-                  className="py-3 px-10 rounded-lg border border-spacing-4 border-gray-500 text-sm text-white font-semibold uppercase hover:bg-orange-500 hover:text-white tracking-wide"
+                  className="py-3 px-10 rounded-lg border border-spacing-4 border-gray-500 text-sm text-white font-semibold uppercase hover:bg-lime-500 hover:text-white tracking-wide"
                 >
                   Send Message
                 </button>
@@ -126,18 +128,19 @@ const Contact = () => {
                 className="inline-flex items-center text-sm text-info font-semibold hover:text-blue-300"
               >
                 <MailIcon className="mr-2 w-5 text-gray-100" />
-                contact@rrb.nz
+                contact@sigmapaintingcontractors.com
               </a>
               {/* ::Address */}
               <p className="text-sm text-gray-100 leading-6">
-                37 Tennille st, Flagstaff <br /> 3210 Hamilton <br /> New
+                12 Retallick , Flagstaff <br /> 3210 Hamilton <br /> New
                 Zealand
               </p>
               {/* ::Socials */}
               <div className="flex items-center">
                 {/* :LINKEDIN */}
+                // eslint-disable-next-line jsx-a11y/anchor-is-valid
                 <a
-                  href="https://www.linkedin.com/in/rrb-contracting-limited-4b7628249/"
+                  href="#"
                   className="m-1.5 w-8 h-8 inline-flex justify-center items-center shadow-sm rounded-full bg-[#1DA1F2] text-white filter hover:brightness-125"
                   style={{ backgroundColor: '#1DA1F2' }}
                 >
@@ -155,8 +158,9 @@ const Contact = () => {
                   </svg>
                 </a>
                 {/* :FACEBOOK */}
+                // eslint-disable-next-line jsx-a11y/anchor-is-valid
                 <a
-                  href="https://www.facebook.com/RRBContracting"
+                  href="#"
                   className="m-1.5 w-8 h-8 inline-flex justify-center items-center shadow-sm rounded-full bg-[#4267B2] text-white filter hover:brightness-125"
                   style={{ backgroundColor: '#4267B2' }}
                 >
@@ -170,8 +174,9 @@ const Contact = () => {
                   </svg>
                 </a>
                 {/* :Instagram */}
+                // eslint-disable-next-line jsx-a11y/anchor-is-valid
                 <a
-                  href="https://www.instagram.com/rrbcontracting/"
+                  href="#"
                   className="m-1.5 w-8 h-8 inline-flex justify-center items-center shadow-sm rounded-full bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 text-white filter hover:brightness-125"
                 >
                   {/* ::instagram svg */}

@@ -119,6 +119,26 @@ export default function Gallery() {
               </div>
             </div>
             {/* /* <!-- product - end --> */}
+       
+            <div>
+              <div className="group h-64 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
+                <img
+                  src={require('../images/Industrial.jpg')}
+                  loading="lazy"
+                  alt="Washing"
+                  className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
+                />
+              </div>
+              <div>
+                <a
+                  href="#"
+                  className="text-gray-700 hover:gray-800 lg:text-lg transition duration-100 mb-1"
+                >
+                  Industrial Protective Coating
+                </a>
+              </div>
+            </div>
+            {/* /* <!-- product - end --> */}
           </div>
         </div>
       </div>

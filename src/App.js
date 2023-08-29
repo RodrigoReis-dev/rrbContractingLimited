@@ -22,9 +22,9 @@ function App() {
       <ScrollToTop
         className="animate-pulse hover:bg-black"
         smooth
-        color="orange"
+        color="lime"
         width="40"
-        height="32"
+        height="30"
       />
     </div>
   )

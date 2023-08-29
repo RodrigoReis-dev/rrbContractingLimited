@@ -20,7 +20,7 @@ export default function Partners() {
                   </div>
                   <div className="py-3 sm:py-4">
                     <img
-                      src="https://cdn.tailgrids.com/1.0/assets/images/services/image-2.jpg"
+                      src={require('../images/cristian.jpg')}
                       alt=""
                       className="rounded-2xl w-full"
                     />
@@ -29,7 +29,7 @@ export default function Partners() {
                 <div className="w-full xl:w-1/2 px-3 sm:px-4">
                   <div className="my-4 relative">
                     <img
-                      src="https://cdn.tailgrids.com/1.0/assets/images/services/image-3.jpg"
+                      src={require('../images/rod.jpg')}
                       alt=""
                       className="rounded-2xl w-full"
                     />
@@ -609,19 +609,19 @@ export default function Partners() {
             </div>
             <div className="w-full lg:w-1/2 xl:w-5/12 pl-8">
               <div className="mt-10 lg:mt-0">
-                <span className="font-bold text-xl text-orange-600 mb-2 block">
+                <span className="font-bold text-xl text-lime-600 mb-2 block">
                   Why Choose Us
                 </span>
                 <h2 className="font-bold text-3xl sm:text-4xl text-gray-700 mb-8">
                   What makes us different is that this isn't just about painting
                   and money for us.
                 </h2>
-                <p className="text-base text-gray-700 mb-8">
+                <p className="text-base text-gray-600 mb-8">
                   We have been operating in the Waikato, Bay of Plenty and
                   Auckland regions for the past 10 years, building a strong
                   customer base providing service and quality.
                 </p>
-                <p className="text-base text-gray-700 mb-12">
+                <p className="text-base text-gray-600 mb-12">
                   To grow individuals, yes to be good painters but better yet be
                   good people.
                 </p>
@@ -640,7 +640,7 @@ export default function Partners() {
                 text-center
                 text-white
                 text-base
-                bg-orange-500
+                bg-lime-600
                 border
                 hover:bg-opacity-80
                 hover:text-gray-900

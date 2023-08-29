@@ -7,11 +7,11 @@ export default function NavbarDesk() {
   return (
     <>
         <nav className="w-full">
-          <ul className="w-full mx-auto justify-center hidden sm:flex flex-row p-7   md:space-x-20 md:mt-0 md:text-base text-white md:font-semibold bg-gray-900 tracking-wider uppercase">
+          <ul className="w-full mx-auto justify-center hidden sm:flex flex-row p-7   md:space-x-20 md:mt-0 md:text-base text-white md:font-semibold bg-gray-800 tracking-wider uppercase">
             <li>
               <Link
                 to="/"
-                className="block py-2 px-10 rounded md:hover:bg-transparent md:border-0 hover:text-orange-400 md:p-0"
+                className="block py-2 px-10 rounded md:hover:bg-transparent md:border-0 hover:text-lime-400 md:p-0"
                 aria-current="page"
               >
                 Home
@@ -20,7 +20,7 @@ export default function NavbarDesk() {
             <li>
               <Link
                 to="/about"
-                className="block py-2 px-10 rounded md:hover:bg-transparent md:border-0 hover:text-orange-400 md:p-0"
+                className="block py-2 px-10 rounded md:hover:bg-transparent md:border-0 hover:text-lime-400 md:p-0"
               >
                 About
               </Link>
@@ -28,7 +28,7 @@ export default function NavbarDesk() {
             <li>
               <Link
                 to="/projects"
-                className="block py-2 px-10 rounded md:hover:bg-transparent md:border-0 hover:text-orange-400 md:p-0"
+                className="block py-2 px-10 rounded md:hover:bg-transparent md:border-0 hover:text-lime-400 md:p-0"
               >
                 Projects
               </Link>
@@ -36,7 +36,7 @@ export default function NavbarDesk() {
             <li>
               <Link
                 to="/contact"
-                className="block py-2 px-10 rounded md:hover:bg-transparent md:border-0 hover:text-orange-400 md:p-0"
+                className="block py-2 px-10 rounded md:hover:bg-transparent md:border-0 hover:text-lime-400 md:p-0"
               >
                 Contact
               </Link>
